@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   resources :microposts
+<<<<<<< HEAD
   resources :users
   root 'users#index'
+=======
+>>>>>>> b64f3554ac77c6eba0411a667afe639e5b6dad17
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
